@@ -1,0 +1,72 @@
+
+
+.links-burger-icon {
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 0;
+    width: 100%;
+    padding: 0 30px;
+    overflow-x: hidden;
+    background: #FFF;
+    z-index: 10;
+
+}
+
+.links-burger-icon .link-mobile {
+    display: flex;
+    
+
+}
+
+.links-burger-icon .sosial-media {
+    text-align: center;
+    padding: 100px 0;
+
+}
+
+.links-burger-icon .sosial-media a{
+    font-size: 30px;
+    padding: 5px;
+}
+.links-burger-icon .sosial-media a:hover{
+    opacity: 0.8;
+}
+
+.links-burger-icon p{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.links-burger-icon ul {
+    width: 90%;
+}
+
+.links-burger-icon .fa-square-xmark {
+    padding: 10px;
+}
+
+.icon-active {
+    height: 100%;
+}
+
+.links-burger-icon li {
+    padding: 2px;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 500;
+    border-bottom: 2px solid grey;
+}
+
+.links-burger-icon li a {
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+}
+
+.links-burger-icon li a:hover {
+
+    background: #FFF;
+    color: #FF6464;
+
+}

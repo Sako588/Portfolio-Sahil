@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap');
+
+
+a {
+    color: black;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+/* Header start */
+header {
+    background: #fff;
+    opacity: 0.95;
+    text-align: end;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+
+
+header .nav-links {
+
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+
+}
+
+
+header .nav-links .links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+header .nav-links .links li {
+    padding: 0 18px;
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+
+.fa-solid {
+    display: none;
+    background: #FFF;
+}
+
+.active {
+
+    color: #FF6464;
+}
+
+header .nav-links>ul li :hover {
+
+    background: #FFF;
+    color: #FF6464;
+
+}
+
+.sticky-navbar {
+    position: sticky;
+    opacity: 0.9;
+    border: 1px solid #ddd;
+}
+
+
+@media (max-width:768px) {
+    header .nav-links {
+        padding-right: 20px;
+    }
+
+    .fa-solid {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+
+
+    }
+
+    header .nav-links .links {
+        display: none;
+    }
+
+  .fa-solid:hover {
+
+        background: #FFF;
+        color: #FF6464;
+
+    }
+}
+
+/* Header end */
+
+
+/* My info start */
+.my-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 20px;
+    padding-bottom: 71px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+.my-info .left>h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    max-width: 400px;
+}
+
+.my-info .left>p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-bottom: 38px;
+}
+
+.my-info .left>a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 5px 15px;
+    border-radius: 2px;
+    background: #FF6464;
+    color: #FFFFFF;
+}
+
+.my-info .left>a:hover {
+    background: #FFF;
+    color: #FF6464;
+}
+
+.my-info .right {
+    max-width: 300px;
+    min-width: 200px;
+    border-radius: 100px;
+}
+
+.my-info .right>img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+@media (max-width:1050px) {
+
+    .my-info {
+        padding: 50px 20px;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .my-info .left>h1 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        padding-top: 20px;
+    }
+
+
+    .my-info .left>p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* My info end */
+
