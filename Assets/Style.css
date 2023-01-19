@@ -186,3 +186,144 @@ header .nav-links>ul li :hover {
 
 /* My info end */
 
+
+/* Recent post start */
+
+.recent-posts {
+    background: #EDF7FA;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.recent-posts>div {
+    padding: 0 20px;
+    padding-bottom: 15px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.recent-posts .top-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.recent-posts .top-side>h5 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+}
+
+.recent-posts .top-side .wiew {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    border: 0;
+    background: #EDF7FA;
+    color: #00A8CC;
+
+}
+
+
+.recent-posts .top-side .wiew:hover {
+    opacity: 0.6;
+}
+
+.recent-posts .cards-item {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+
+
+.recent-posts .card {
+    display: inline-block;
+    max-width: 350px;
+    min-width: 220px;
+    height: 295px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.recent-posts .card>h6 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 18px;
+}
+
+.recent-posts .card>span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.recent-posts .card>span:nth-child(2) {
+    border-right: 2px solid #000;
+    padding-right: 10px;
+}
+
+
+.recent-posts .card>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 11px;
+
+}
+.recent-posts .card {
+    max-width: 418px;
+
+}
+
+.recent-posts .card:nth-child(3),
+.recent-posts .card:nth-child(4),
+.recent-posts .card:nth-child(5),
+.recent-posts .card:nth-child(6) {
+    display: none;
+}
+
+
+@media (max-width:1000px) {
+
+    .recent-posts .cards-item {
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+
+@media (max-width:768px) {
+
+
+    .recent-posts .card>h6 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 18px;
+    }
+
+    .recent-posts .card>span {
+
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .recent-posts>div {
+
+        padding: 0 20px;
+
+
+    }
+}
+
+/* Recent post end */
+
+
