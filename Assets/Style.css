@@ -699,3 +699,57 @@ header .nav-links>ul li :hover {
 }
 
 /* Dashboard Section end */
+
+
+/* Footer start */
+
+
+footer .form-items {
+    max-width: 700px;
+    margin: 30px auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    
+}
+.text-left {
+    padding-left:5px;
+}
+
+.btn-submit-reset {
+display: flex;
+justify-content: space-between;
+}
+
+.btn-submit-reset .btn {
+    width: 48%;
+}
+
+footer {
+    background: rgb(248 248, 248);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .sosial-media {
+    padding-bottom: 10px;
+
+}
+
+footer .sosial-media a {
+    font-size: 30px;
+    padding: 0 30px;
+}
+
+footer .sosial-media a:hover{
+    opacity: 0.8;
+}
+
+footer p {
+    padding-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* Footer end */
