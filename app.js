@@ -1,38 +1,38 @@
 
-// const kartSaxlayici = document.querySelector(".cards-item")
+const kartSaxlayici = document.querySelector(".cards-item")
 
-// window.onload = yazilariGosder
+window.onload = yazilariGosder
 
-// async function yazilariGosder() {
+async function yazilariGosder() {
 
-//     const unvan = "yazilar.json"
+    const unvan = "yazilar.json"
 
-//     try {
-//         const serverdenGelenMelumatlar = await fetch(unvan)
-//         const frontendeGelecekForm = await serverdenGelenMelumatlar.json()
+    try {
+        const serverdenGelenMelumatlar = await fetch(unvan)
+        const frontendeGelecekForm = await serverdenGelenMelumatlar.json()
 
-//         for (let i = 0; i < frontendeGelecekForm.length; i++) {
+        for (let i = 0; i < frontendeGelecekForm.length; i++) {
 
-//             kartSaxlayici.innerHTML += `
-//         <div class="card">
-//         <h6>${frontendeGelecekForm[i].name}</h6>
-//         <span>${frontendeGelecekForm[i].time}</span>
-//         <span>${frontendeGelecekForm[i].work}</span>
-//         <p> ${frontendeGelecekForm[i].about}</p>
-//        </div>`
+            kartSaxlayici.innerHTML += `
+        <div class="card">
+        <h6>${frontendeGelecekForm[i].name}</h6>
+        <span>${frontendeGelecekForm[i].time}</span>
+        <span>${frontendeGelecekForm[i].work}</span>
+        <p> ${frontendeGelecekForm[i].about}</p>
+       </div>`
 
-//         }
+        }
 
-//     }
-//     catch (e) {
-//         console.log("Xeta bash verdi" + e.message)
-//     }
+    }
+    catch (e) {
+        console.log("Xeta bash verdi" + e.message)
+    }
 
-//     finally {
+    finally {
 
-//     }
+    }
 
-// }
+}
 
 
 
