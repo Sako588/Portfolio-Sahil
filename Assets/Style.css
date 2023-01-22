@@ -68,7 +68,7 @@ header .nav-links>ul li :hover {
 .sticky-navbar {
     position: sticky;
     opacity: 0.9;
-    border: 1px solid #ddd;
+    border-bottom: 2px solid #ddd;
 }
 
 
@@ -152,11 +152,6 @@ header .nav-links>ul li :hover {
     border-radius: 100%;
 }
 
-
-
-
-
-
 @media (max-width:1050px) {
 
     .my-info {
@@ -235,7 +230,6 @@ header .nav-links>ul li :hover {
 .recent-posts .cards-item {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     gap: 10px;
 }
 
@@ -317,10 +311,7 @@ header .nav-links>ul li :hover {
     }
 
     .recent-posts>div {
-
         padding: 0 20px;
-
-
     }
 }
 
@@ -399,20 +390,6 @@ header .nav-links>ul li :hover {
 }
 
 
-@media (max-width:1050px) {
-    .featured-card .featured-right {
-        padding-left: 0;
-    }
-}
-
-@media (max-width:950px) {
-
-    .featured-card {
-        flex-wrap: wrap;
-    }
-
-}
-
 @media (max-width:768px) {
 
     .featured-works {
@@ -420,7 +397,9 @@ header .nav-links>ul li :hover {
         padding-right: 20px;
     }
 
-
+    .featured-card .featured-right {
+        padding-left: 0;
+    }
 
 
     .featured-card:nth-child(2),
@@ -477,23 +456,15 @@ header .nav-links>ul li :hover {
 }
 
 .blog-section .blog-items>span:nth-child(3) {
-
-
     color: #8695A4;
 }
 
 .blog-section .blog-items>p {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     margin: 15px 0;
-
 }
-
-
-
-
 /* Blog section end */
 
 
@@ -530,7 +501,7 @@ header .nav-links>ul li :hover {
 }
 
 .work-card .work-right {
-    padding-left: 10px;
+    padding-left: 20px;
     width: 400px;
 }
 
@@ -566,35 +537,15 @@ header .nav-links>ul li :hover {
     padding-top: 24px;
 }
 
-
-
-
-
-
-@media (max-width:1050px) {
-    .work-card .work-right {
-        padding-left: 0;
-    }
-}
-
-@media (max-width:950px) {
-
-    .work-card {
-        flex-wrap: wrap;
-    }
-
-}
-
 @media (max-width:768px) {
 
     .work-section {
         padding-left: 20px;
         padding-right: 20px;
     }
-
-
-
-
+    .work-card .work-right {
+        padding-left: 0;
+    }
     .work-card:nth-child(2),
     .work-card:nth-child(3) {
         display: none;
@@ -676,7 +627,6 @@ header .nav-links>ul li :hover {
     .dashboard-section span:nth-child(1) {
 
         font-size: 16px;
-
         line-height: 24px;
     }
 
@@ -690,7 +640,6 @@ header .nav-links>ul li :hover {
     .dashboard-section>div p {
 
         font-size: 14px;
-        ;
 
     }
 
@@ -743,7 +692,7 @@ footer .sosial-media a {
 }
 
 footer .sosial-media a:hover{
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 footer p {
